@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-color: papayawhip;
+}
+header {
+    grid-area: header;
+}
+footer {
+    grid-area: footer;
+}
+#gameDiv {
+    background-color: lightcoral;
+    max-width: 90%;
+    max-height: 90vh;
+}
+#gDiv {
+    background-color: cyan;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    align-self: auto;
+
+}
+    
+.tiles {
+    background-color: white;
+    border: 2px groove black;
+    padding: 5px;
+    margin: 5px;
+    object-fit: contain;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
